@@ -27,7 +27,7 @@ AFRAME.registerComponent("models", {
       marker.setAttribute("markerhandler", {});
       scene.appendChild(marker);
 
-      if(barcodeValue === 0){
+      if(barcodeValue === 0){ 
           var modelEl = document.createElement("a-entity");
           modelEl.setAttribute("id", `${modelName}`);
           modelEl.setAttribute("geometry",{
